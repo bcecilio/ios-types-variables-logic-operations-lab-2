@@ -22,6 +22,21 @@ var grade3 = 5.0
 
 // your code here
 ```
+Answer
+```
+var grade1 = 7.0
+var grade2 = 9.0
+var grade3 = 5.0
+
+var yourGrade = 12.0
+var average = (grade1 + grade2 + grade3) / 3
+
+if yourGrade > average {
+print("above average")
+} else {
+print("below average")
+}
+```
 
 ***
 ## Question 2
@@ -32,6 +47,13 @@ You are given a number. Print even if the number is even or odd otherwise.
 let number = 2
 
 // your code here
+```
+Answer 
+```
+let number = 2
+if number % 2 {
+print("Even")
+}
 ```
 
 ***
@@ -44,6 +66,16 @@ var a = 12
 var b = 3
 
 // code here
+```
+Answer 
+```
+var a = 12
+var b = 3
+if a % b == 0{
+print("divisible")
+} else {
+print("not divisible")
+}
 ```
 
 ***
@@ -58,6 +90,21 @@ var c = 2
 
 // your code here
 ```
+Answer
+```
+var a = 2
+var b = 3
+var c = 2
+
+if a == c {
+    print("At least two variables have the same value!")
+ if a == c {
+    
+}
+} else if b == c {
+    print("All values are different!")
+}
+```
 
 ***
 ## Question 5
@@ -69,6 +116,19 @@ var baconAge = 6 // the bacon is 6 days old
 var eggsAge = 12 // eggs are 12 days old
 
 // your code here
+```
+Answer
+```
+var baconAge = 6 // the bacon is 6 days old
+var eggsAge = 12 // eggs are 12 days old
+
+if baconAge <= 7{
+if eggsAge <= 21 {
+print("you can cook bacon and eggs!")
+}
+} else {
+print("throw out!")
+}
 ```
 
 ***
@@ -82,6 +142,18 @@ let year = 2014
 
 // your code here
 ```
+Answer
+```
+let year = 2014
+
+if year % 100 == 0{
+if year % 400 == 0{
+print("not a leap year!")
+}
+} else {
+print("leap year!")
+}
+```
 
 ***
 ## Question 7
@@ -92,6 +164,16 @@ If you use `random()` it will give you a random number within a specified range.
 let randomNum = Int.random(in: 0...100)
 
 // your code here
+```
+Answer
+```
+let randomNum = Int.random(in: 0...100)
+
+if randomNum % 2 == 0{
+print("heads")
+} else if randomNum % 2 != 0{
+print("tails")
+}
 ```
 
 Hint: use an if/else block along with the `%` operator
@@ -109,6 +191,15 @@ var d = 4
 
 // your code here
 ```
+Answer
+```
+var a = 5
+var b = 6
+var c = 3
+var d = 4
+
+
+```
 
 ***
 ## Question 9
@@ -122,6 +213,10 @@ c. !(true || false)
 d. (4 < 3 || 4 > 3) && ("Message: " == "Message: ")
 e. !(3 != 3)
 
+```
+Answer
+```
+A, B, D, E
 ```
 
 ***
@@ -143,7 +238,10 @@ d. (x && y) || z > 6
 e. !(z < 6) && !y && !x
 
 ```
-
+Answer
+```
+A, B, D
+```
 
 ***
 ## Question 11
@@ -156,6 +254,10 @@ b. The maximum value for Integers is +∞.
 c. Integer types in computers take up a fixed amount of memory.
 d. Integers may contain decimals.
 
+```
+Answer
+```
+C
 ```
 
 
@@ -170,6 +272,10 @@ b. let numberOfChapters = "For Whom The Bell Tolls"
 c. let nameOfBook: Int = 14
 d. let yearPublished = "Nineteen-thirty-five"
 
+```
+Answer
+```
+A, B, C, D
 ```
 
 ***
@@ -209,6 +315,11 @@ let isEqual = div == div2
 
 
 ```
+Answer
+```
+1. 2
+2. 
+```
 ***
 ## Question 15
 ```swift
@@ -224,6 +335,10 @@ b. n is a Double
 c. n is a Decimal
 d. In is an Int
 
+```
+Answer
+```
+A, B, C
 ```
 
 # Bonus 
@@ -241,6 +356,10 @@ What are the differences between Float and Double?
 
 
 ***
+Answer
+```
+Float holds 32-bit vs 64-bit of a Double
+```
 
 ## Question 3
 
@@ -258,6 +377,10 @@ b. It will print 50.0
 c. It will print 50
 d. It will give a compile-time error
 
+```
+Answer
+```
+D. It will give a compile-time error
 ```
 ***
 ## Question 4 
@@ -285,6 +408,10 @@ Output:
 
 
 ```
+Answer
+```
+var a = 123 % 10
+```
 
 ***
 
@@ -304,6 +431,15 @@ Even
 
 ```
 
+Answer 
+```
+var number = 5
+var numberTwo = 2
+if number / 2 == 0 {
+    print("Even")
+}
+```
+
 ***
 
 ## Question 6
@@ -314,6 +450,13 @@ You are given 2 Doubles a and b. Print their average
 var a = 2.0
 var b = 5.0
 
+```
+Answer
+```
+var a = 2.0
+var b = 5.0
+var average = (a + b) / 2
+print(average)
 ```
 
 

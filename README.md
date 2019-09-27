@@ -298,6 +298,10 @@ b %= c
 print(a + b + c)
 
 ```
+Answer
+```
+The code will print 29.
+```
 
 ***
 ## Question 14
@@ -318,7 +322,8 @@ let isEqual = div == div2
 Answer
 ```
 1. 2
-2. 
+2. 2.75
+3. Will not compile
 ```
 ***
 ## Question 15
@@ -348,13 +353,19 @@ A, B, C
 
 What are the differences between Double and Int in the numbers they can represent and how they store them?
 
-
+Answer
+```
+A Double is a number with a decimal while an Integer is a whole number.
+```
 ***
 ## Question 2 
 
 What are the differences between Float and Double?
 
-
+Answer
+```
+A float number can hold only 7 digits while a Double can hold twice that number.
+```
 ***
 Answer
 ```
